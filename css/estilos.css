@@ -1,0 +1,80 @@
+header{
+    background-color: #FF4A4A;
+}
+/*Imagen banner SEO*/
+
+.fotobanner{
+width: 100%;
+
+
+}
+
+/*Nav*/
+
+.navbar{
+    background-color: #FF4A4A;
+    box-sizing: border-box;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.navbar>ul>li>a{
+
+color: white;
+text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+}
+/*Main*/
+
+main{
+    height: 600px;
+}
+
+/*Footer*/
+
+.footer{
+    background-image: url(../img/desktop/FOTOSSURF/WebP/footer.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+/*Section*/
+
+section{
+    display: flex;
+}
+
+/*Imagen no SEO*/
+
+.fotoderecha{
+    background-image: url(../img/desktop/FOTOSSURF/WebP/picture.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Imagen SEO*/
+
+.fotoizquierda{
+    height: 100%;
+}
+
+.fotoizquierda,.fotoderecha{
+    width: 50vw;
+}
+
+
+
